@@ -1,0 +1,10 @@
+THIS IS AN EXAMPLE OF Command line used to launch AsyncVE
+
+
+php AsyncVE.php lp:8000 rp:80 ct:netscratch/test.php os:netscratch/receiver.php is:netscratch/sender.php
+
+rp: port on which central server (e.g. Apache Web Server) listen
+lp: local port on which ScratchLocalServer listen
+ct: path of a script used for test, only respond "OK"
+is: path of a script used to retrieve variables from other conterparts
+os: path of a script used to send commands (variables) to the other counterparts 
