@@ -1,10 +1,8 @@
 <?php
 
 /*
- * Example standalone HTTP server that routes all .php URIs to PHP files under ./example_www, 
- * and routes all other URIs to static files under ./example_www. 
- * 
- * index.php is used as the directory index.
+ * Implement response to Scratch 2.0 Http extension. Implememnets a protocol to exchange variables and commands 
+ * Scratch 2.0 via a Central Server 
  *
  */
 
